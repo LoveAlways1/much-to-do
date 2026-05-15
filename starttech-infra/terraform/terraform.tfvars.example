@@ -1,0 +1,6 @@
+aws_region     = "us-east-1"
+project_name   = "starttech-muchtodo"
+environment    = "prod"
+
+mongo_uri      = "mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/much_todo_db?retryWrites=true&w=majority"
+jwt_secret_key = "replace-with-a-long-random-secret"
