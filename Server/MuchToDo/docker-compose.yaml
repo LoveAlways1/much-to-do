@@ -12,11 +12,7 @@ services:
     # Use a command that sets permissions and then starts mongod
     command:
       [
-        "--replSet",
-        "rs0",
-        "--bind_ip_all",
-        "--keyFile",
-        "/data/keyfile/mongodb.key",
+        "--bind_ip_all"
       ]
     # Create a keyfile and mount it to the container
     # openssl rand -base64 756 > mongodb.key && chmod 400 mongodb.key
